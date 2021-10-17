@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+
+        <template id="search_template_extra_options" inherit_id="account_reports.search_template_extra_options">
+             <xpath expr="//div[hasclass('o_filter_menu')]" position="inside">
+                <a role="menuitem" class="dropdown-item js_account_report_bool_filter" t-if="options.get('show_p_currency') != None" title="Primary Currency" data-filter="show_p_currency">
+                    Primary Currency
+                </a>
+            </xpath>
+        </template>
+
+		
+	</data>
+</odoo>
