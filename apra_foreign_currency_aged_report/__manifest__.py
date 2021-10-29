@@ -17,6 +17,6 @@
     ],
 
     'maintainer': 'Apra IT Solutions',
-    'price': 40.00,
+    'price': 15.00,
     'currency': 'USD',
 }
